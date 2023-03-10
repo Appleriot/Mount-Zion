@@ -1,0 +1,271 @@
+/*
+Template Name: lawetique
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+@media (max-width: 1280px){
+    .navbar-default .navbar-nav > li > a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 1199px){
+    .navbar-brand > img {
+        display: block;
+        width: 300px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        font-size: 14px;
+    }
+    .navbar-default .navbar-nav {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .tv-main-banner {
+        min-height: 500px;
+    }
+    .tv-banner-content h1 {
+        font-size: 36px;
+    }
+    .tv-banner-content h2 {
+        font-size: 22px;
+    }
+    h2.tv-section-title {
+        font-size: 30px;
+    }
+    .tv-cta-content > p {
+        font-size: 20px;
+    }
+    .tv-cta-content > h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .tv-cta-banner, .tv-result-banner, .tv-testimonial-banner{
+        padding: 80px 0;
+    }
+    .tv-resons-itembox .tv-num {
+        font-size: 48px;
+    }
+    .tv-result-content .tv-result-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .tv-result-content .tv-result-value {
+        font-size: 32px;
+    }
+    #tv-result-slider .owl-prev, #testimonial-banner .owl-prev {
+        left: -10px;
+    }
+    #tv-result-slider .owl-next, #testimonial-banner .owl-next{
+        right: -10px;
+    }
+    .tv-area-item span.tv-area-name{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .tv-innerpage-banner{
+        min-height: 300px;
+    }
+    .tv-innerpage-content h1 {
+        font-size: 30px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+@media (max-width: 991px){
+    .navbar-brand > img {
+        display: block;
+        width: 200px;
+    }
+    .navbar-default .navbar-nav {
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    .navbar-default .navbar-nav > li > a {
+        margin-left: 6px;
+        margin-right: 6px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .tv-main-banner {
+        min-height: 450px;
+    }
+    .tv-header-para {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .tv-cta-content {
+        text-align: center;
+    }
+    h2.tv-section-title {
+        font-size: 26px;
+        margin: 10px 0 40px;
+    }
+    .tv-pre-title {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .tv-section {
+        padding: 80px 0 0;
+    }
+    .tv-footer-content {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .tv-blog-details h3, .tv-contact-email-form h2{
+        font-size: 20px;
+    }
+    .tv-post-timing a {
+        font-size: 12px;
+    }
+    .tv-searchbar .btn {
+        height: 42px;
+        margin-top: 10px;
+        position: relative;
+        width: 100%;
+    }
+    .tv-404-banner {
+        background-position: right center;
+    }
+    .tv-404-content p {
+        color: #fff;
+    }
+    .tv-contact-email-form{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 767px){
+    .navbar-default .navbar-toggle {
+        border-color: #fff;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #d74b4b;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #fff;
+    }
+    .tv-banner-content h1 {
+        font-size: 30px;
+    }
+    .tv-banner-content h2 {
+        font-size: 20px;
+    }
+    .tv-main-banner {
+        min-height: 400px;
+    }
+    .navbar-default .navbar-nav, .navbar-default .navbar-nav > li > a{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .navbar-collapse{
+        background-color: #000;
+    }
+    .tv-cta-content > h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .tv-cta-banner, .tv-result-banner, .tv-testimonial-banner {
+        padding: 60px 0;
+    }
+    #tv-result-slider .owl-prev, #tv-result-slider .owl-next, #testimonial-banner .owl-prev, #testimonial-banner .owl-next {
+        bottom: -40px;
+        transform: translateY(0%);
+        top:auto;
+    }
+    #tv-result-slider .owl-prev, #testimonial-banner .owl-prev {
+        left: auto;
+        right: 50px;
+    }
+    #tv-result-slider .owl-next, #testimonial-banner .owl-next {
+        right: 20px;
+    }
+    .tv-innerpage-banner {
+        min-height: 230px;
+    }
+    .tv-innerpage-content h1 {
+        font-size: 26px;
+        margin-bottom: 0;
+    }
+    .tv-singleblog-rightbar{
+        margin-top: 50px;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a{
+        color: #fff;
+    }
+    a#searchtoggl {
+        display: inline-block;
+        float: left;
+    }
+    #searchbar {
+        right: auto;
+        left: 0;
+    }
+}
+@media (max-width: 500px){
+    .tv-main-banner {
+        min-height: 300px;
+    }
+    .tv-banner-content h1 {
+        font-size: 24px;
+    }
+    .tv-banner-content h2 {
+        font-size: 14px;
+    }
+    .tv-banner-content .btn{
+        margin-top: 15px;
+    }
+    h2.tv-section-title {
+        font-size: 24px;
+    }
+    .tv-cta-content > h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .tv-post-sharelinks {
+        float: left;
+        margin-top: 10px;
+    }
+    .tv-post-sharelinks a {
+        margin-left: 0;
+        margin-right: 8px;
+    }
+    .tv-map iframe {
+        height: 250px;
+        width: 100%;
+    }
+}
+@media (max-width: 400px){
+    .width-100, .tv-area-item img{
+        width: 100%;
+    }
+    .tv-main-banner {
+        min-height: 280px;
+    }
+    .tv-banner-content h1 {
+        font-size: 20px;
+    }
+    .tv-banner-content h2 {
+        font-size: 12px;
+    }
+    .tv-cta-banner{
+        background-position: 90% center;
+    }
+}
+@media (max-width: 350px){
+    .tv-main-banner {
+        min-height: 250px;
+    }
+    .tv-footer-contact a, .tv-footer-contact p {
+        font-size: 16px;
+    }
+    .nav.nav-tabs > li > a {
+        display: block;
+        padding: 10px;
+        position: relative;
+    }
+}
